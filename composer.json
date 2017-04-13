@@ -1,0 +1,20 @@
+{
+    "name": "fredB/tavoiture",
+    "description": "site ta voiture.com",
+    "type": "project",
+
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/",
+        "Models\\": "models/",
+        "Views\\": "views/",
+        "Controllers\\": "controllers/"
+      }
+  },
+  "scripts": {
+      "run": [
+          "echo 'Started web server on http://localhost:3000'",
+          "php -S localhost:3000"
+      ]
+  }
+}
