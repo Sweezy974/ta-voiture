@@ -146,8 +146,8 @@ VALUES
 
 INSERT INTO `vehicle` (`price`, `color`, `available`,`user_id`, `model_id`, `address_id`, `fuel`, `status`, `description`,`places`)
 VALUES
-('500', 'noire', '1','1', '7', '1', 'essence', 'très bon état', 'je met à disposition ma voiture qui est très bien entretenu','4'),
-('80', 'rouge', '0', '1', '8', '1', 'essence', 'bon état', 'peinture fresh','2');
+('500', 'noire', '1','1', '7', '1', 'essence', 'tres bon etat', 'je met a disposition ma voiture qui est tres bien entretenu','4'),
+('80', 'rouge', '0', '1', '8', '1', 'essence', 'bon etat', 'peinture fresh','2');
 
 INSERT INTO `reservation` (`vehicle_id`, `user_id`, `start_booking`, `end_booking`, `status`)
 VALUES ('1', '1', '2017-04-13 00:00:00', '2017-04-17 00:00:00', '1'),
