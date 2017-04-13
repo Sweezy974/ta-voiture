@@ -62,6 +62,7 @@
   </div>
 
 </div>
+<script src="views/index/js/index.js"></script>
 <script src="views/base/js/jquery-3.1.0.min.js" charset="utf-8"></script>
 <script src="views/base/js/materialize.js" charset="utf-8"></script>
 <script type="text/javascript">
@@ -75,6 +76,13 @@ $('.button-collapse').sideNav({
 
 // Initialize collapsible (uncomment the line below if you use the dropdown variation)
 $('.collapsible').collapsible();
+
+$(document).ready(function(){
+  // we call the function
+  indexVehicleList() ;
+
+
+});
 
 
 </script>

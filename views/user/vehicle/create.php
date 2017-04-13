@@ -1,7 +1,14 @@
 
-<div class="container">
+<div class="container white">
   <a onclick="brandList(),modelList(),createVehicleAddress()"> lance les js</a>
+
+
+
   <div class="row">
+    <div class="row col l12 center">
+      <h4>Nouvelle Location</h4>
+
+    </div>
     <div class="row col l12">
       <div class="offset-l3 input-field col l3" onclick="brandList()">
         <select id="marque" name="marque" onclick="brandList()">
@@ -60,7 +67,7 @@
       </div>
     </div>
     <div class="col l12 center">
-        <button id="valider" onclick="createVehicle()"class="waves-effect waves-light btn">Enregistrer</button>
+        <button id="valider" onclick="createVehicleAddress(),createVehicle()"class="waves-effect waves-light btn">Enregistrer</button>
     </div>
 
 
