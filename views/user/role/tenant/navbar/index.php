@@ -46,7 +46,7 @@
 
                   <!-- user image -->
                   <a href="#!user">
-                    <img class="circle" src="views/base/img/mastro-linda.gif">
+                    <img class="circle" src="views/base/img/rs6.jpg">
                   </a>
                   <a href="#!name"><span class="white-text name">locataire</span></a>
                   <a href="#!email"><span class="white-text email">locataire@gmail.com</span></a>

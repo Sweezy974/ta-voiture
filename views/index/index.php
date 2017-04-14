@@ -19,47 +19,70 @@
         <div class="nav-wrapper">
           <a href="#" data-activates="slide-out" class="button-collapse" style="padding-right:20px;"><i class="material-icons">menu</i></a>
           <!-- <ul id="nav-mobile" class="right ">
-            <li><a href="page.php?id=8"><span class="new red badge">0</span></a></li>
-          </ul> -->
-          <a href="#!" class="brand-logo center uppercase">tavoiture.com</a>
-          <!-- navbar for small devices -->
-          <ul class="right ">
-            <!-- <li><a href="home.php">Accueil</a></li> -->
-            <li class="">
-              <!-- <a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="fa fa-user"></i> Mon Compte <i class="fa fa-angle-down"></i></a> -->
-              <ul   style="margin-top: 64px;" id="dropdown1" class="dropdown-content" >
-                <li><a href="#!">Gérer mon compte</a></li>
-                <li><a href="#!">Mes statistiques</a></li>
-                <!-- <li><a href="#!">Déclarer un bug</a></li> -->
+          <li><a href="page.php?id=8"><span class="new red badge">0</span></a></li>
+        </ul> -->
+        <a href="#!" class="brand-logo center uppercase">tavoiture.com</a>
+        <!-- navbar for small devices -->
+        <ul class="right ">
+          <!-- <li><a href="home.php">Accueil</a></li> -->
+          <li class="">
+            <!-- <a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="fa fa-user"></i> Mon Compte <i class="fa fa-angle-down"></i></a> -->
+            <ul   style="margin-top: 64px;" id="dropdown1" class="dropdown-content" >
+              <li><a href="#!">Gérer mon compte</a></li>
+              <li><a href="#!">Mes statistiques</a></li>
+              <!-- <li><a href="#!">Déclarer un bug</a></li> -->
 
-                <li class="divider"></li>
-                <li><a href="./?action=logout"><i class="fa fa-sign-out"></i>Déconnexion</a></li>
-              </ul>
-            </li>
-          </ul>
-
-
-
-        </div>
-      </div>
-    </nav>
-  </div>
+              <li class="divider"></li>
+              <li><a href="./?action=logout"><i class="fa fa-sign-out"></i>Déconnexion</a></li>
+            </ul>
+          </li>
+        </ul>
 
 
-  <div class="row">
-    <div class="container">
-      <div class="col s12 l12 center mar">
-        <div class="offset-l2 col l4 s12 marsmart">
-          <a  value="1" href="/?c=user&t=ownerIndex" class="waves-effect waves-light btn-large red col s12"><i class="material-icons left">mode_edit</i>Propriétaire</a>
-        </div>
-        <div class="offset col l4 s12 marsmart">
-          <a  value="2" href="/?c=user&t=tenantIndex"class="waves-effect waves-light btn-large blue col s12"><i class="material-icons left">collections_bookmark</i>Locataire</a>
-        </div>
+
       </div>
     </div>
+  </nav>
+</div>
 
 
+<div class="row">
+  <div class="container">
+    <div class="col s12 m12 l12 center" id="listeVehiculeAccueil">
+      <!-- <div class="col s12 l4">
+        <div class="card" style="overflow: hidden;">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="views/base/img/rs6.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Nom véhicule<i class="material-icons right">more_vert</i></span>
+
+            <p><a href="#!">Prix €</a></p>
+          </div>
+          <div class="card-reveal" style="display: none; transform: translateY(0px);">
+            <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+
+          <div class="card-action center">
+            <a href="#">Réserver</a>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="col s12 l4"> <div class="card" style="overflow: hidden;"> <div class="card-image waves-effect waves-block waves-light"> <img class="activator" src="views/base/img/rs6.jpg"> </div> <div class="card-content"> <span class="card-title activator grey-text text-darken-4">Nom véhicule<i class="material-icons right">more_vert</i></span> <p><a href="#!">Prix €</a></p> </div> <div class="card-reveal" style="display: none; transform: translateY(0px);"> <span class="card-title grey-text text-darken-4">Description<i class="material-icons right">close</i></span> <p>Here is some more information about this product that is only revealed once clicked on.</p> </div> <div class="card-action center"> <a href="#">Réserver</a> </div> </div> </div> -->
+    </div>
+    <div class="col s12 l12 center mar">
+      <div class="offset-l2 col l4 s12 marsmart">
+        <a  value="1" href="/?c=user&t=ownerIndex" class="waves-effect waves-light btn-large red col s12"><i class="material-icons left">mode_edit</i>Propriétaire</a>
+      </div>
+      <div class="offset col l4 s12 marsmart">
+        <a  value="2" href="/?c=user&t=tenantIndex"class="waves-effect waves-light btn-large blue col s12"><i class="material-icons left">collections_bookmark</i>Locataire</a>
+      </div>
+    </div>
   </div>
+
+
+</div>
 
 </div>
 <script src="views/index/js/index.js"></script>

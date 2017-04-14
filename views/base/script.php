@@ -19,5 +19,10 @@ $(document).ready(function() {
 
 
 </script>
+<!-- script ajax -->
+<script src="views/user/js/user.js"></script>
+<script src="views/user/vehicle/js/vehicle.js"></script>
+<script src="views/user/vehicle/js/address.js"></script>
+
 </body>
 </html>

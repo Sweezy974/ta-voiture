@@ -8,7 +8,7 @@
   <!-- Materialize Icons CDN -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Let browser know website is optimized for mobile-->
-  <meta name="viewsport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewsport" content="width=device-width, initial-scale=1">
   <!-- style -->
   <link rel="stylesheet" href="views/base/css/main.css">
 </head>
@@ -42,11 +42,11 @@
             <ul id="slide-out" class="side-nav fixed" style="transform: translateX(0%);">
               <li class="">
                 <div class="userView red">
-                  <img class="background" src="views/base/img/blur2.jpg">
+                  <!-- <img class="background" src="views/base/img/blur2.jpg"> -->
 
                   <!-- user image -->
                   <a href="#!user">
-                    <img class="circle" src="views/base/img/mastro-linda.gif">
+                    <img class="circle" src="views/base/img/rs6.jpg">
                   </a>
                   <a href="#!name"><span class="white-text name">propriétaire</span></a>
                   <a href="#!email"><span class="white-text email">proprietaire@gmail.com</span></a>

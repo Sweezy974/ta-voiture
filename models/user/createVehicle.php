@@ -9,10 +9,19 @@ $owner =1;
 // $prix = isset($_POST['Prix']);
 // $couleur = isset($_POST['Couleur']);
 // $carburant = isset($_POST['Carburant']);
-
-$prix = $_POST['Prix'];
+$marque = $_POST['Marque'];
+$modele = $_POST['Modele'];
 $couleur = $_POST['Couleur'];
 $carburant = $_POST['Carburant'];
+$place = $_POST['Place'];
+$etat = $_POST['EtatEntretien'];
+$prix = $_POST['Prix'];
+
+$q = query("SELECT * FROM `address` ORDER BY id DESC LIMIT 1");
+$res = mysqli_fetch_array($q);
+
+print_r($res);
+
 
 
 echo $prix.$couleur.$carburant;

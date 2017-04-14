@@ -9,7 +9,8 @@ include_once('config.php');
 $adresse = $_POST['Adresse'];
 $cp = $_POST['CodePostal'];
 $ville = $_POST['Ville'];
-$pays =  $_POST['Pays'];
+// $pays =  $_POST['Pays'];
+$pays =  'REUNION';
 
 
 echo $prix.$couleur.$carburant;

@@ -8,30 +8,10 @@
 
     </div>
 
-    <div id="listeVehicule">
+    <div class="col s12" >
+      <ul class="collection" id="vehicleList">
 
-    <ul class="collection" id="vehicleList">
-
-      <!-- <li class="collection-item avatar grey lighten-3 ">
-      <img src="views/base/img/rs6.jpg" alt="" class="circle">
-      <span class="title">nom</span>
-      <p>détails <br>
-      détails 2
-    </p>
-    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-  </li>
--->
-
-
-</ul>
+    </ul>
+    </div>
 </div>
 </div>
-</div>
-<script src="views/user/js/user.js"></script>
-<script>
-$(document).ready(function(){
-  // we call the function
-  vehicleList() ;
-
-});
-</script>
