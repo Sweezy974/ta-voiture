@@ -4,11 +4,11 @@ function createVehicle(){
   if (
     // $( "#marque" ).val() != ""  &&
     // $( "#modele" ).val() != ""  &&
-    // $( "#couleur" ).val() != "" &&
-    // $( "#place" ).val() != ""  &&
-    // $( "#prix" ).val() != ""  &&
-    // $( "#etatEntretien" ).val() != ""  &&
-    // $( "#carburant" ).val() != ""
+    $( "#couleur" ).val() != "" &&
+    $( "#place" ).val() != ""  &&
+    $( "#prix" ).val() != ""  &&
+    $( "#etatEntretien" ).val() != ""  &&
+    $( "#carburant" ).val() != ""
   ){
     var idp = $('#id_page').val();
     $.ajax({
@@ -16,13 +16,15 @@ function createVehicle(){
         url: 'models/user/createVehicle.php',
         dataType: 'json',
         data: {
-          Marque:$( "#marque" ).val(),
-          Modele:$( "#modele" ).val(),
+          // Marque:$( "#marque" ).val(),
+          // Modele:$( "#modele" ).val(),
           Couleur:$( "#couleur" ).val(),
           Carburant:$( "#carburant" ).val(),
           Place:$( "#place" ).val(),
           EtatEntretien:$( "#etatEntretien" ).val(),
+          DateDispo:$( "#dateDispo" ).val(),
           Prix:$( "#prix" ).val(),
+          Description:$( "#description" ).val()
 
 
 

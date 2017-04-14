@@ -76,12 +76,17 @@
       <div class="input-field col l2 s2 ">
         <input  required placeholder="codePostal" pattern= "[0-9]" id="codePostal" name="codePostal"  type="number" class="" value="">
       </div>
-      <div class="input-field col l4 s3 ">
+      <div class="input-field col l2 s3 ">
         <input  required placeholder="ville"  id="ville" name="ville"  type="text" class="" value="">
       </div>
       <!-- <div class="input-field col l3 ">
         <input  placeholder="pays"  id="pays" name="pays"  type="text" class="" value="">
       </div> -->
+    </div>
+    <div class="row col l12 s12" style="margin-top:30px;">
+      <div class="offset-l3 input-field col l6 offset-s2 s8">
+        <textarea class="materialize-textarea" placeholder="description" id="description"name="name" rows="8" cols="80"></textarea>
+      </div>
     </div>
     <div class="row col l12 s12" style="margin-top:30px;">
       <div class="offset-l3 input-field col l3 offset-s2 s8">
@@ -91,6 +96,7 @@
         <input  placeholder="prix en €"  id="prix" name="prix"  type="number" class="" value="">
       </div>
     </div>
+
     <div class="col l12 offset-s2 s8 center">
         <button id="valider" onclick="createVehicleAddress(),createVehicle()"class="waves-effect waves-light btn">Enregistrer</button>
     </div>

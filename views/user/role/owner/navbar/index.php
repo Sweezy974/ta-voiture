@@ -52,11 +52,10 @@
                   <a href="#!email"><span class="white-text email">proprietaire@gmail.com</span></a>
                 </div>
               </li>
-              <li><a href="#"><!--<i class="material-icons right">mode_edit</i>!--> Nouvelle location</a></li>
-              <li><a href="#"><!--<i class="material-icons right">collections_bookmark</i>!-->Mes location</a></li>
-              <li><a href="#"><!--<i class="material-icons right">date_range</i>!-->Gérer réservations</a></li>
-              <li><a href="/?c=user&t=list">v</a></li>
-              <li><a href="/?c=vehicle&t=list">u</a></li>
+              <li><a href="/?c=user&t=createVehicle"><!--<i class="material-icons right">mode_edit</i>!--> Nouvelle location</a></li>
+              <li><a href="/?c=user&t=vehicleList"><!--<i class="material-icons right">collections_bookmark</i>!-->Mes location</a></li>
+              <li><a href="/?c=user&t=reservationList"><!--<i class="material-icons right">date_range</i>!-->Gérer réservations</a></li>
+
 
             </ul>
           </div>
