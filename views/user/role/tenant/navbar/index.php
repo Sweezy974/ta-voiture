@@ -21,7 +21,7 @@
           <ul id="nav-mobile" class="right ">
             <li><a href="page.php?id=8"><span class="new red badge">21</span></a></li>
           </ul>
-          <a href="#!" class="brand-logo center uppercase">tavoiture.com</a>
+          <a href="localhost:3000/" class="brand-logo center uppercase">tavoiture.com</a>
           <!-- navbar for small devices -->
           <ul class="right ">
             <!-- <li><a href="home.php">Accueil</a></li> -->

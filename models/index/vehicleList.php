@@ -5,8 +5,8 @@ include_once('config.php');
 // error_reporting(E_ALL);
 
 $owner =1;
-// list vehicle for this user
-$q =query("SELECT * FROM vehicle WHERE available='1'");
+// 3 last vehicle available
+$q =query("SELECT * FROM vehicle WHERE available='1' ORDER BY id DESC LIMIT 3");
 
 
 while ($res = mysqli_fetch_array($q)) {
@@ -14,6 +14,7 @@ while ($res = mysqli_fetch_array($q)) {
   $response['Price'][] = $res['price'];
   $response['Model'][] = $res['model_id'];
   $response['Color'][] = $res['color'];
+  $response['Description'][] = $res['description'];
 
 }
 

@@ -19,7 +19,7 @@ $description = $_POST['Description'];
 $dateDispo = $_POST['DateDispo'];
 $prix = $_POST['Prix'];
 
-
+//reccup id adresse
 $q = query("SELECT * FROM `address` ORDER BY id DESC LIMIT 1");
 $res = mysqli_fetch_array($q);
 

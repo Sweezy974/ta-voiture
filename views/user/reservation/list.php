@@ -1,7 +1,7 @@
 <script src="views/user/js/user.js"></script>
 
 <div class="row">
-  <div class="container">
+  <div class="container white" style="min-height:650px;">
     <div class="row col s12 center">
       <h3>réservation</h3>
     </div>
@@ -32,6 +32,7 @@
 
 </div>
 
+<script src="views/base/js/jquery-3.1.0.min.js" charset="utf-8"></script>
 <script>
 $(document).ready(function(){
   // we call the function

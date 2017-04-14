@@ -50,26 +50,20 @@ class UserController extends Controller
     include_once('views/user/role/owner/navbar/index.php');
     include_once('views/user/vehicle/create.php');
     include_once('views/base/script.php');
-    // echo "createVehicle";
   }
 
   // liste d'annnonce
   public function vehicleList()
   {
-    // include_once('models/user/vehicleList.php');
-    include_once('views/base/index.php');
+    include_once('views/user/role/owner/navbar/index.php');
     include_once('views/user/vehicle/list.php');
     include_once('views/base/script.php');
-    // include 'app/Config.php';
-    // echo "vehicleList";
   }
 
   public function reservationList()
   {
-    // include_once('models/user/ajax/acceptedReservationList.php');
-    // include_once('models/user/ajax/pendingReservationList.php');
 
-    include_once('views/base/index.php');
+    include_once('views/user/role/owner/navbar/index.php');
     include_once('views/user/reservation/list.php');
     include_once('views/base/script.php');
     // echo "reservationList";
