@@ -9,6 +9,7 @@ $q = query("SELECT * FROM reservation WHERE user_id='".$owner."' AND status=0 " 
 
 while ($res = mysqli_fetch_array($q)) {
   // print_r($res);
+  $response['ReservationId'][] = $res['id'];
   $response['vehicleId'][] = $res['vehicle_id'];
   $response['Status'][] = $res['status'];
   $response['startBooking'][] = $res['start_booking'];
